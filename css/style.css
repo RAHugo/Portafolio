@@ -1,0 +1,61 @@
+.navbar{
+    padding: 2rem;
+    background-color: lightgray;
+    align-items: center;
+}
+
+.navbar-collanse{
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.sobre{
+    background-color: black;
+    min-height: 400px;
+    text-align: center;
+}
+
+.sobre-principal{
+    padding: 3rem;
+}
+
+.sobre-img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
