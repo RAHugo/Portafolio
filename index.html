@@ -11,6 +11,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Portafolio Hugo Rojas</title>
     <link rel="icon" type="image/x-icon" href="./src/img/Hugo_Rojas.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-md">
@@ -24,10 +28,10 @@
             </a>
             <ul class="navbar-nav d-flex justify-content-center align-items-center">
               <li class="nav-item">
-                <a class="nav-link " href="#">Sobre Mí</a>
+                <a class="nav-link " href="#Sobre_Mi">Sobre Mí</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Proyectos</a>
+                <a class="nav-link" href="#tecnologia">Tecnologías con experiencia</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link " href="#">Contacto</a>
@@ -43,15 +47,86 @@
             <img class="sobre-img" src="./src/img/foto.png" alt="Foto de Hugo Rojas">
             <h1 class="text-white">Mucho gusto, Soy Hugo Axel Rojas Aguilar</h1>
             <h2 class="text-white">Desarrollador Java Full Stack Jr</h2>
-
         </div>
+     </section>
+     <section class="sobre2 aligh-items-center">
+      <div class="container-fluid ancho">
+        <div class="sobre2-principal">
+          <a id="Sobre_Mi" name="#Sobre_Mi"><h2 class="text-black">Sobre Mí</h2></a>
+          <br><br>
+          <h3 class="text-black">Soy un persona apta para el trabajo en equipo y honesta, con una formación en economía por un gusto relacionados con las finanzas, desarrollo económico y transporte. De igual manera, una inclinación en temas referentes en el área tecnológica lo que me ha llevado en la adquisición en conocimientos en diferentes lenguajes de programación como: Java, JavaScript, HTML, Python entre otros. </h3>
+        </div>
+      </div>
     </section>
+    <!-- Carrucel -->
+    <section class="tecnologia" id="tecnologia">
+      <h1 class="text-white">Tecnologías con experiencia</h1>
+      <br><br>
+      <div id="tecnologia-carrucel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./src/img/filetype-css.svg" class="d-block" alt="css" width="400px">
+          </div>
+          <div class="carousel-item">
+            <img src="./src/img/filetype-html.svg" class="d-block" alt="html" width="400px">
+          </div>
+          <div class="carousel-item">
+            <img src="./src/img/filetype-java.svg" class="d-block" alt="Java" width="400px">
+          </div>
+          <div class="carousel-item">
+            <img src="./src/img/filetype-js.svg" class="d-block" alt="js" width="400px">
+          </div>
+          <div class="carousel-item">
+            <img src="./src/img/filetype-py.svg" class="d-block" alt="py" width="400px">
+          </div>
+          <div class="carousel-item">
+            <img src="./src/img/filetype-sql.svg" class="d-block" alt="sql" width="400px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#tecnologia-carrucel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#tecnologia-carrucel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+          <!-- Contacto -->
+    <section class="sobre align-items-center">
+      <br><br>
+      <h1 class="text-white">Tecnologías con experiencia</h1>
+      <div class="container-fluid ancho">
+        <table class="centar">
+          <tr>
+            <td>
+              <a href="https://github.com/RAHugo" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </td>
+            <td>
+              <a href="https://www.linkedin.com/in/hugo-axel-rojas-aguilar-3bb5a6242/" target="_blank"><i class="bi bi-github"></i></a>
+            </td>
+          </tr>
+        </table>
+      </div>
 
+    </section>
+    
+    
+
+
+
+
+
+
+   
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  </body>
 </html>
 
 

@@ -17,17 +17,37 @@ section{
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+}
+
+h3{
+        font-size: 2rem;
+        font-family: 'Playfair Display', serif;
 }
 
 .sobre{
     background-color: black;
     min-height: 400px;
     text-align: center;
+}
+
+.sobre2{
+    background-color: cornflowerblue;
+    min-height: 400px;
+    text-align: center;
+}
+.sobre2-principal{
+    padding: 3rem;
+}
+
+.ancho{
+    max-width: 767px;
 }
 
 .sobre-principal{
@@ -39,6 +59,32 @@ h2{
     height: 200px;
     margin: 20px;
 }
+
+/* Tecnologia */
+
+.tecnologia{
+    padding: 40px 40px 80px 40px;
+    background-color: darkgray;
+}
+
+.tecnologia .carousel{
+    max-width: 800px;
+}
+
+.carousel-item {
+    height: 400px;
+}
+
+/* Contacto */
+
+i{
+    font-size: 300px;
+    color: white;
+}
+
+  
+
+
 
 @media screen and (max-width: 767px){
     .navbar-brand{
