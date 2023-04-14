@@ -82,7 +82,11 @@ i{
     color: white;
 }
 
-  
+.proyecto{
+    background-color: dimgray;
+    min-height: 400px;
+    text-align: center;
+}
 
 
 
